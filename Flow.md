@@ -126,7 +126,8 @@ class User(db.Model,UserMixin):
 
     def check_password(self,password):
         return check_password_hash(self.password_hash,password)
-
+    def __repr__(self):
+        return f"Username {self.username}"
 
 class BlogPost(db.Model):
 
@@ -143,6 +144,8 @@ class BlogPost(db.Model):
         self.title = title
         self.text = text
         self.user_id = user_id
+    def __repr__(self):
+        return f"Post ID: {self.id} -- Date: {self.date} --- {self.title}"        
 ```
 
 Add DB setup and Login Config in /blogify/\_\_init\_\_.py

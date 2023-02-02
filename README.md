@@ -65,7 +65,7 @@ class BlogPostForm(FlaskForm):
 ```
 
 ### 2. 
-File Route: blogify/__init__.py
+File Route: blogify/\_\_init\_\_.py
 
 ##### Some necessary imports
 

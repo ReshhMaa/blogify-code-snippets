@@ -166,7 +166,8 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'users_posts.login'
 ```
-Add this import statement after core views import 
+Add import statement in \core\views.py
+
 ```python
 from blogify.models import BlogPost
 ```
@@ -393,14 +394,7 @@ def create_post():
 2. Display Blog
 
 We change code in core views file
-
-Add import statement in \core\views.py
-
-```python
-from blogify.models import BlogPost
-```
-
-And replace the code for index route
+Replace the code for index route
 
 ```python
 @core.route('/')

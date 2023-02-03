@@ -55,7 +55,7 @@ Name the file `sample.html`
     <title>Document</title>
   </head>
   <body>
-    hello hitesh
+      <p>Hello everyone! Welcome to Flask Workshop conducted by CSI-PCE.</p>
   </body>
 </html>
 ```

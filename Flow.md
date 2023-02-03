@@ -416,7 +416,7 @@ def blog_post(blog_post_id):
   blog_post = BlogPost.query.get_or_404(blog_post_id)
   return render_template('blog_post.html', post = blog_post)
 ```
-
+Type /<Your_username> on the url to see the post
 4. Endpoint for deleting a blog
 
 ```python

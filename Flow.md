@@ -252,6 +252,7 @@ class BlogPostForm(FlaskForm):
 ```
 
 We have sucessfully created forms structure.
+Replace sample.html to index.html in core/views.py
 
 Now we create api ends for authentication
 End points are 1. Register 2. Login 3. Logout

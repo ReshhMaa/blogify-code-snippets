@@ -352,7 +352,9 @@ such as
 2. Showing Blogs
 3. Deleting Blogs
 
-4. Creating blog (/blogify/views.py)
+----
+
+1. Creating blog (/blogify/views.py)
 
 ```python
 # blog views

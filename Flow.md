@@ -166,7 +166,10 @@ login_manager = LoginManager()
 login_manager.init_app(app)
 login_manager.login_view = 'users_posts.login'
 ```
-
+Add this import statement after core views import 
+```python
+from blogify.models import BlogPost
+```
 To setup the database, run the following commands:
 
 ```

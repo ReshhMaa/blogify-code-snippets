@@ -204,8 +204,6 @@ users_posts = Blueprint('users_posts', __name__)
 
 Register the blueprint in /blogify/\_\_init\_\_.py
 
-> Alert - you know what i mean
-
 ```python
 from blogify.core.views import core
 from blogify.users_posts.views import users_posts
